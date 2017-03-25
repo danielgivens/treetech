@@ -1,0 +1,14 @@
+$eurostile: 'eurostile-extended', sans-serif;
+$aktiv: 'aktiv-grotesk', sans-serif;
+$clarendon: 'clarendon-wide', sans-serif;
+$din: '"din-2014-narrow', sans-serif;
+html {
+	font-family: $aktiv;
+	font-size: 100%;
+	line-height: 1.2;
+	font-size: 45px;
+	@include breakpoint(large){font-size: 35px;}
+	@include breakpoint(small){font-size: 30px;}
+	@include breakpoint(tablet){font-size: 25px;}
+	@include breakpoint(mobile){font-size: 20px;}
+}
