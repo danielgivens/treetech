@@ -40,7 +40,11 @@ module.exports = function(grunt) {
 		    libs: {
 		        src: [
 		            'docroot/assets/js/vendor/jquery.js',
-		            'docroot/assets/js/vendor/marquee.js'
+		            'docroot/assets/js/vendor/iscroll-probe.js',
+		            'docroot/assets/js/vendor/anystretch.js',
+		            'docroot/assets/js/vendor/actual.js',
+		            'docroot/assets/js/vendor/fittext.js',
+		            'docroot/assets/js/vendor/cycle.js'
 		        ],
 		        dest: 'docroot/assets/js/libs.min.js',
 		    }

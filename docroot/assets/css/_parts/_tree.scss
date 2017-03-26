@@ -1,36 +1,124 @@
-#intro{
-	padding: $pad;
+.scroller{
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	transform: translateZ(0);	
+	@extend %clearfix;
+}
+#loader{
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	z-index: 100000;
 	background: black;
-	color: white;
-	height: 1rem;
-	.marquee{
-		overflow: visible;
+	transition: 1s $ease-in-out-expo 0.5s;
+	transform: translateY(0%);
+	img{
+		position: absolute;
+		width: 15%;
+		max-width: 100px;
+		height: auto;
+		top:50%;
+		left:50%;
+		transform: translateX(-50%) translateY(-50%);
+	}
+}
+.loaded{
+	#loader{
+		transform: translateX(-100%);
+	}
+}
+#hero{
+	min-height: 90vh;
+	padding:$pad;
+	position: fixed;
+	z-index: 10;
+	top:0;
+	left:0;
+	width: 100%;
+	h1{
+		position: relative;
+		z-index: 100;
+		color: white;
+		font-size: 5rem;
+		line-height: 0.9;
+		text-transform: uppercase;
+		font-family: $eurostile;
+	}
+	#phone{
+		position: absolute;
+		bottom:$pad;
+		left:$pad;
+		width: 25%;
+		font-family: $din;
+		text-transform: uppercase;
+		font-size: 1rem;
+		color: white;
+		z-index: 100;
+		letter-spacing: 0.05rem;
+		text-decoration: none;
+	}
+	#slides{
+		z-index: 10;
 		position: absolute;
 		top:0;
 		left:0;
-		backface-visibility:hidden;
-		width: 100vw;
-		height:1rem;
-	}
-	.js-marquee-wrapper{
-		position: relative;
-	}	
-	p{
-		font-size: 1rem;
-		line-height: 1.5;
-		white-space:nowrap;
-		i{
-			height: 1rem;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		backface-visibility: hidden;
+		background: black;
+		figure{
+			position: absolute!important;
+			top:0;
+			left:0;
+			width:100%;
+			height: 100%;
+			visibility: visible!important;
+			mix-blend-mode: difference;
+			img{
+				opacity: 0;
+				transition:all 1s $ease .5s;
+			}
+			&.cycle-slide-active{
+				img{
+					opacity: 1;
+					transition:all 1s $ease;
+				}
+			}
 		}
 	}
+
+}
+#spacer{
+	width: 100%;
+	position: relative;
+	height: 90vh;
+	cursor: pointer;
 }
 #tree{
-	margin: $pad;	
+	padding-top: $pad;
+	padding-left: $pad;	
+	overflow: hidden;
+	min-height: 80vh;
+	width: 100%;
+	position: relative;
+	z-index: 100;
+	background: white;
+	aside{
+		position: relative;
+		width: 100%;
+		padding-bottom: $pad*2;
+		p{
+			font-size: 2rem;
+			line-height: 1;
+		}	
+	}
 	ul{
-		font-size: 2rem;
 		line-height: 1;
-		text-transform: uppercase;
-		font-family: $eurostile;
+		font-size: 2rem;
 		span, a{
 			color: black;
 			text-decoration: none;
@@ -39,13 +127,8 @@
 	
 			}
 			&:hover{
-				color: white;
-				text-shadow:
-				-1px -1px 0 #000,  
-				1px -1px 0 #000,
-				-1px 1px 0 #000,
-				 1px 1px 0 #000;						
-				
+				font-family: $clarendon;
+				line-height: 0.8;										
 			}
 		}
 		li{
@@ -109,4 +192,135 @@
 			}
 		}
 	}
+}
+#content{
+	position: fixed;
+	right:0%;
+	top:0;
+	height: 100vh;
+	width: 70%;
+	max-width: 900px;
+	background: black;
+	z-index: 10000;
+	overflow: hidden;
+	color: white;
+	transform: translateX(100%);
+	transition: transform 1s $ease-in-out-expo;
+	.scroller{
+		padding: $pad;
+	}
+	article{
+		padding: 15vh 0;
+		min-height: 100vh;
+		float: left;
+		clear: both;
+		width: 100%;
+	}
+	h1{
+		font-family: $stencil;
+		padding-bottom: $pad;
+		font-size: 4rem;
+		line-height: 1;
+	}
+	p{
+		margin: 0;
+		width: 100%;
+		float: left;
+		clear: both;
+		line-height: 1.2;
+		text-indent: 1.5rem;
+		&:nth-of-type(1){
+			margin-top: $pad;
+			text-indent: 0;
+		}
+	}
+	a{
+		color: white;
+		text-decoration: none;
+		border-bottom: 1px solid white;
+		display: inline;
+		position: relative;
+		&:hover{
+			border-bottom: 1px solid black;
+		}
+	}
+	ul{
+		list-style: disc;
+	}
+	ol{
+		list-style: upper-roman
+	}
+	ul, ol{
+		margin-top: $pad;
+		width: 100%;
+		float: left;
+		clear: both;
+		list-style-position: inside;
+		li{
+			margin-bottom: $pad/2;
+		}
+		&.contact{
+			list-style: none;
+			padding-left: 0px;
+			li{
+				margin-bottom: $pad;
+			}
+			a{
+				color: white;
+				text-decoration: none;
+				display: inline-block;
+				border-bottom: 0px solid white!important;
+				span{
+					display: inline-block;
+					position: relative;
+					margin-left: $pad/2;
+					//padding-bottom: $pad/2;
+					border-bottom: 1px solid white;
+				}
+				&:hover{
+					span{
+						border-bottom: 1px solid black;
+					}
+				}
+			}			
+		}
+	}
+	blockquote,div.ig, img{
+		margin:$pad 0 0;
+		float: left;
+		clear: both;
+		width: 100%;
+		height: auto;
+	}
+	figure{
+		margin-bottom: $pad;
+	}
+	iframe{
+		margin: $pad 0;
+		width: 100%;
+		&#map{
+			pointer-events: none;
+		}
+	}
+}
+.show-content{
+	#content{
+		transform:translateX(0);
+	}
+}
+footer#global{
+	position: relative;
+	z-index: 100;
+	background: white;
+	color: black;
+	padding: $pad;
+	min-height: 20vh;
+	#logo{
+		position: absolute;
+		bottom:$pad;
+		left:$pad;
+		width: 20%;
+		height: auto;
+		z-index: 100;
+	}	
 }
