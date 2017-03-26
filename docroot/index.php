@@ -151,6 +151,7 @@
 					</ul>
 				</article>
 			</div>
+			<div id="click-catch"></div>
 		</section>
 		<div id="loader">
 			<img src="assets/images/icon.svg" />	

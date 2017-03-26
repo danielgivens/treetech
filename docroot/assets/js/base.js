@@ -36,7 +36,6 @@ $(document).ready(function(){
 		}
 		scroller1.refresh();
 	});
-
 	$('#slides').cycle({
 		slides: 'figure',
 		fx: 'none',
@@ -60,7 +59,7 @@ $(document).ready(function(){
 	scroller2.on('scrollStart',function(){
 		scroller2.refresh();
 	});
-	$('#content').on('mouseleave',function(){
+	$('#content #click-catch').on('click',function(){
 		$('body').removeClass('show-content');
 		scroller1.enable();
 		//scroller1 = new IScroll('body', scroll1Settings);
@@ -70,9 +69,14 @@ $(document).ready(function(){
 	scroller1.on('scroll',function(){
 		//$main =  parseInt(this.y>>0) *-1;
 	});
+	scroller1.disable();
+
 });
 $(window).load(function(){
 	$('body').addClass('loaded');
+	setTimeout(function(){
+		scroller1.enable();	
+	}, 1500);
 });
 $.fn.cycle.transitions.scrollVert = {
     before: function( opts, curr, next, fwd ) {
