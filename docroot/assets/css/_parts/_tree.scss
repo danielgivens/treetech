@@ -29,41 +29,42 @@
 	#loader{
 		transform: translateY(-100vh);
 	}
-	#tree,#hero{
-		transform: translateY(0%);	
-	}
 }
 #hero{
-	min-height: 90vh;
 	padding:$pad;
-	position: fixed;
-	z-index: 10;
-	top:0;
-	left:0;
+	position: relative;
+	z-index: 100;
 	width: 100%;
-	transform: translateY(100vh);
-	transition: transform 1s $ease-in-out-expo 0.5s;	
+	backface-visibility: hidden;
+	@extend %clearfix;
 	h1{
 		position: relative;
-		z-index: 100;
+		z-index: 1000;
 		color: white;
 		font-size: 5rem;
+		float: left;
 		line-height: 0.9;
+		display: block;
 		text-transform: uppercase;
 		font-family: $eurostile;
+		backface-visibility: hidden;
+		cursor: s-resize;
 	}
 	#phone{
-		position: absolute;
-		bottom:$pad;
-		left:$pad;
-		//width: 25%;
+		float: left;
+		clear: both;
+		display: block;
+		position: relative;
+		margin-top: $pad*4;
 		font-family: $din;
 		text-transform: uppercase;
 		font-size: 1.25rem;
 		color: white;
-		z-index: 100;
+		z-index: 1000;
 		letter-spacing: 0.05rem;
 		text-decoration: none;
+		cursor: pointer;
+		backface-visibility: hidden;
 	}
 	#slides{
 		z-index: 10;
@@ -75,6 +76,7 @@
 		overflow: hidden;
 		backface-visibility: hidden;
 		background: black;
+		cursor: s-resize;
 		figure{
 			position: absolute!important;
 			top:0;
@@ -97,12 +99,6 @@
 	}
 
 }
-#spacer{
-	width: 100%;
-	position: relative;
-	height: 90vh;
-	cursor: pointer;
-}
 #tree{
 	padding-top: $pad;
 	padding-left: $pad;	
@@ -112,8 +108,6 @@
 	position: relative;
 	z-index: 100;
 	background: white;
-	transform: translateY(100vh);
-	transition: transform 1s $ease-in-out-expo 0.5s;	
 	aside{
 		position: relative;
 		width: 96%;
@@ -130,14 +124,19 @@
 			color: black;
 			text-decoration: none;
 			cursor: pointer;
+			cursor: e-resize;
 			&.root{
-	
+				cursor: s-resize;
 			}
+
 			&:hover{
 				font-family: $clarendon;
 				line-height: 0.8;										
 			}
 		}
+		a{
+			cursor: pointer;
+		}		
 		li{
 			position: relative;
 			padding-left: $pad*1.25;
@@ -220,7 +219,7 @@
 		height: 100%;
 		z-index: 10;
 		background: $transparent;
-		cursor: e-resize;
+		cursor: w-resize;
 	}
 	.scroller{
 		z-index: 100;
@@ -346,5 +345,6 @@ footer#global{
 		width: 20%;
 		height: auto;
 		z-index: 100;
+		cursor: n-resize;
 	}	
 }

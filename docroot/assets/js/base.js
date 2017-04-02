@@ -45,8 +45,11 @@ $(document).ready(function(){
 		random: true
 	});	
     scroller1 = new IScroll('body', scroll1Settings);
-	$('#spacer').click(function(){
-		scroller1.scrollToElement($('#tree').get(0), 1000, null, null, IScroll.utils.ease.quadratic);
+	$('#hero #slides, #hero h1').click(function(){
+		scroller1.scrollToElement($('#tree').get(0), 600, null, null, IScroll.utils.ease.quadratic);
+	});
+	$('#global #logo').click(function(){
+		scroller1.scrollToElement($('#hero').get(0), 600, null, null, IScroll.utils.ease.quadratic);
 	});
     scroller2 = new IScroll('#content', scroll2Settings);
 	$('#tree .branch').click(function(){
