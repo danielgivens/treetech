@@ -234,6 +234,9 @@
 		float: left;
 		clear: both;
 		width: 100%;
+		&#contact{
+			padding-bottom: 25vh;
+		}
 	}
 	h1{
 		font-family: $stencil;
