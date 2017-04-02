@@ -7,11 +7,11 @@ html {
 	font-family: $aktiv;
 	font-size: 100%;
 	line-height: 1.2;
-	font-size: 35px;
-	@include breakpoint(large){font-size: 30px;}
-	@include breakpoint(small){font-size: 25px;}
-	@include breakpoint(tablet){font-size: 20px;}
-	@include breakpoint(mobile){font-size: 15px;}
+	font-size: 50px;
+	@include breakpoint(large){font-size: 35px;}
+	/*@include breakpoint(small){font-size: 30px;}
+	@include breakpoint(tablet){font-size: 35px;}
+	@include breakpoint(mobile){font-size: 35px;}*/
 }
 @font-face {
   font-family: 'fontello';
