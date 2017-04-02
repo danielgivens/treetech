@@ -127,7 +127,7 @@
 				</article>
 				<article id="about">
 					<h1>About</h1>
-					<p>TreeTech was founded by Philadelphia native Elias Schewel to provide affordable expert tree pruning and removal services for our clients.  Our shop is a few blocks from the old Tastycake factory, and our office is in West Philly - we are one of the only area tree care companies based in the city.  We are your local arborists caring for the urban forest.  Call us for a quick estimate, local tree emergencies, and efficient, careful service.</p>
+					<p>Tree Tech was founded by Philadelphia native Elias Schewel to provide affordable expert tree pruning and removal services for our clients.  Our shop is a few blocks from the old Tastykake factory, and our office is in West Philly - we are one of the only area tree care companies based in the city.  We are your local arborists caring for the urban forest.  Call us for a quick estimate, local tree emergencies, and efficient, careful service.</p>
 				</article>
 				<article id="sustainability">
 					<img src="assets/images/photo-community.jpg" alt="Tree climbing rope" />
