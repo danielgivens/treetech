@@ -56,10 +56,10 @@
 		position: absolute;
 		bottom:$pad;
 		left:$pad;
-		width: 25%;
+		//width: 25%;
 		font-family: $din;
 		text-transform: uppercase;
-		font-size: 1rem;
+		font-size: 1.25rem;
 		color: white;
 		z-index: 100;
 		letter-spacing: 0.05rem;
@@ -206,7 +206,6 @@
 	top:0;
 	height: 100vh;
 	width: 100%;
-	//max-width: 900px;
 	background: transparent;
 	z-index: 10000;
 	overflow: hidden;
@@ -225,32 +224,35 @@
 	}
 	.scroller{
 		z-index: 100;
-		width: 70%;
-		max-width: 900px;
+		width: 80%;
+		max-width: 1200px;
 		background: black;
 		padding: $pad;
 		right:0;
 	}
 	article{
-		padding: 15vh 0;
-		min-height: 100vh;
+		padding: 0 0 0 0;
 		float: left;
 		clear: both;
 		width: 100%;
 	}
 	h1{
 		font-family: $stencil;
-		padding-bottom: $pad;
+		//padding-bottom: $pad;
 		font-size: 4rem;
 		line-height: 1;
+		padding-top: $pad;
+		float: left;
+		clear: both;
 	}
 	p{
-		margin: 0;
+		margin-bottom: $pad;
 		width: 100%;
 		float: left;
 		clear: both;
 		line-height: 1.2;
 		text-indent: 1.5rem;
+		margin-top: -$pad;
 		&:nth-of-type(1){
 			margin-top: $pad;
 			text-indent: 0;
@@ -307,11 +309,11 @@
 			}			
 		}
 	}
-	blockquote,div.ig, img{
-		margin:$pad 0 0;
+	img{
+		margin:$pad 0;
 		float: left;
 		clear: both;
-		width: 100%;
+		width: 75%;
 		height: auto;
 	}
 	figure{

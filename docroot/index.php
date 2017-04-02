@@ -19,28 +19,21 @@
 						<span class="root">Services</span>
 						<ul>
 							<li><span class="branch" data-page="pruning">Tree Pruning</span></li>
-							<li><span class="branch" data-page="removal">Tree Removal</span></li>
-							<li class="last"><span class="branch" data-page="estimates">Free Estimates</span></li>
+							<li class="last"><span class="branch" data-page="removal">Tree Removal</span></li>
 						</ul>
 					</li>
 					<li>
-						<span class="root">Experience</span>
+						<span class="root">Company</span>
 						<ul>
-							<li><span class="branch" data-page="gallery">Gallery</span></li>
-							<li class="last"><span class="branch" data-page="testimonial">Testimonial</span></li>
-						</ul>
-					</li>
-					<li>
-						<span class="root">About</span>
-						<ul>
-							<li><span class="branch" data-page="manifesto">Manifesto</span></li>
-							<li class="last"><span class="branch" data-page="coverage">Coverage</span></li>
+							<li><span class="branch" data-page="about">About</span></li>
+							<li><span class="branch" data-page="sustainability">Sustainability</span></li>
+							<li><span class="branch" data-page="community">Community</span></li>
 						</ul>
 					</li>
 					<li class="last">
 						<span class="root">Contact</span>
 						<ul>
-							<li><a href="mailto:eli@treetechphila.com">E-mail Us</a></li>
+							<li><a href="mailto:info@treetechphila.com">E-mail Us</a></li>
 							<li><a href="tel:267-225-3012">Call 267-225-3012</a></li>
 							<li><a href="https://instagram.com/treetechphila" target="_blank">Follow on IG</a></li>
 							<li class="last"><a href="https://facebook.com/treetechphila" target="_blank">Like on FB</a></li>
@@ -54,7 +47,7 @@
 		</div>
 		<header id="hero">
 			<h1>Let's<br/>Talk<br/>Trees</h1>
-			<a id="phone" href="tel:267-225-3012">Call 267-225-3012</a>
+			<a id="phone" href="tel:267-225-3012">Free estimates<br />Fully insured<br />Call 267-225-3012</a>
 			<div id="slides">
 				<figure class="stretched" data-stretch="assets/images/bg-1.jpg"></figure>
 				<figure class="stretched" data-stretch="assets/images/bg-2.jpg"></figure>
@@ -66,88 +59,39 @@
 		<section id="content">
 			<div class="scroller">
 				<article id="pruning">
-					<h1>Safe & Healthy</h1>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-					<p>It was <a href="#">popularised</a> in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<img src="assets/images/photo-pruning.jpg" />
+					<h1>Tree Pruning</h1>
+					<p>Trees can be pruned for a variety of reasons, both functional and aesthetic.  Trees can be thinned to allow light to pass through them, or to reduce weight and control growth.  Pruning can also remove dead wood and hanging branches.  Trees can also be reduced and have problematic sections removed.  Often in urban situations trees need to be pruned to clear them from buildings, sidewalks, wires, lights or other trees.  We are also experienced at fine pruning, and can prune large and small trees, and shrubs to achieve the look that you want.</p>
+					<img src="assets/images/photo-suspension.jpg" />
 				</article>
 				<article id="removal">
-					<h1>Clearing Correctly</h1>
-					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<h1>Tree Removal</h1>
+					<p>Whether it be from disease, decay, or some other defect trees sometimes need to be removed.  We work hard to save any tree we can, but in cases where the tree could be dangerous to people or property we recommend removal.  When the site allows it we like to work with clients to manage a tree's decline over the end of its life.  In other cases, a tree in decline should be removed sooner since allowing it to continue to decay will only increase the cost and hazards of eventual removal.</p>
+					<p>We specialize in take downs of trees in tight spaces, and will ensure that nothing is damaged and the site is the same when we leave as it was when we found it.</p>
+					<img src="assets/images/photo-removal.jpg" />
 				</article>
-				<article id="estimates">
-					<h1>Get Our Opinion</h1>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+				<article id="about">
+					<h1>About</h1>
+					<p>TreeTech was founded by Philadelphia native Elias Schewel to provide affordable expert tree pruning and removal services for our clients.  Our shop is a few blocks from the old Tastycake factory, and our office is in West Philly - we are one of the only area tree care companies based in the city.  We are your local arborists caring for the urban forest.  Call us for a quick estimate, local tree emergencies, and efficient, careful service.</p>
 				</article>
-				<article id="gallery">
-					<h1>Past<br />Projects</h1>
-					<img src="assets/images/fpo6.jpg" />
-					<img src="assets/images/fpo4.jpg" />
-					<img src="assets/images/fpo3a.jpg" />
-					<img src="assets/images/fpo3b.jpg" />					
-					<img src="assets/images/fpo2.jpg" />
-					<img src="assets/images/fpo5.jpg" />
-					<img src="assets/images/fpo1a.jpg" />
-					<img src="assets/images/fpo1b.jpg" />
+				<article id="sustainability">
+					<img src="assets/images/photo-community.jpg" />
+					<h1>Sustainability</h1>
+					<p>We are committed to building an environmentally sustainable company. Whenever they are willing we work with our clients to preserve living trees.  If the tree isn't hazardous, we will usually recommend pruning or cabling trees to fix problems that may arise, instead of tree removal.  This preserves the urban tree canopy, and often saves our clients money.</p>
 				</article>
-				<article id="testimonial">
-					<h1>Happy Trees, Happy Places</h1>
-					<figure>
-					    <blockquote>
-					        "This is what I think"
-					    </blockquote>
-					    <footer>
-					        — <cite class="author">My Name</cite>, <cite class="company">My Company</cite>
-					    </footer>
-					</figure>
-					<figure>
-					    <blockquote>
-					        "This is what I think"
-					    </blockquote>
-					    <footer>
-					        — <cite class="author">My Name</cite>, <cite class="company">My Company</cite>
-					    </footer>
-					</figure>
-					<figure>
-					    <blockquote>
-					        "This is what I think"
-					    </blockquote>
-					    <footer>
-					        — <cite class="author">My Name</cite>, <cite class="company">My Company</cite>
-					    </footer>
-					</figure>
-					<figure>
-					    <blockquote>
-					        "This is what I think"
-					    </blockquote>
-					    <footer>
-					        — <cite class="author">My Name</cite>, <cite class="company">My Company</cite>
-					    </footer>
-					</figure>										
-				</article>
-				<article id="manifesto">
-					<h1>Not The Typical Tree Care Service</h1>
-					<img src="assets/images/fpo7.jpg" />
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-					<ul>
-						<li>It was popularised in the 1960s</li>
-						<li>It was popularised in the 1960s</li>
-						<li>It was popularised in the 1960s</li>
-						<li>It was popularised in the 1960s</li>
-					</ul>
-				</article>
-				<article id="coverage">
-					<h1>Who?<br />What?<br />Where?</h1>
-					<img src="assets/images/map.jpg" />
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				<article id="community">
+					<img src="assets/images/photo-urban.jpg" />	
+					<h1>Community</h1>
+					<p>Rooted in our community, we find local uses for all of the wood chips and tree debris that our work produces.  Our wood chips go to <a href=" https://www.bennettcompost.com/" target="_blank">Bennett Compost</a> where it is mixed with household food waste, or chips go to neighborhood gardens and farms.  Larger chunks of wood we produce are turned in Germantown at <a href="http://woodworking.com" target="_blank">Two Trees Woodworking</a>.  When a tree has grown straight, and the site allows it to be felled in one piece, we work with <a href="http://craftworkhome.com" target="_blank">Craftwork Design</a> to transport the log and have it milled in Manayunk.  Then this lumber can be built into custom carpentry at their shop in East Kensington.</p>    
 				</article>
 				<article id="contact">
-					<h1>Keep In Touch</h1>
+					<img src="assets/images/photo-about.jpg" />					
+					<h1>Contact</h1>
 					<ul class="contact">
-						<li><a href="mailto:eli@treetechphila.com"><i class="demo-icon icon-mail"></i><span>eli@treetechphila.com</span></a></li>
+						<li><a href="mailto:info@treetechphila.com"><i class="demo-icon icon-mail"></i><span>info@treetechphila.com</span></a></li>
 						<li><a href="tel:267-225-3012"><i class="demo-icon icon-phone"></i><span>267-225-3012</span></a></li>
-						<li><a href="https://instagram.com/treetechphila" target="_blank"><i class="demo-icon icon-instagram"></i><span>@treetechphila</span></a></li>
-						<li class="last"><a href="https://facebook.com/treetechphila" target="_blank"><i class="demo-icon icon-thumbs-up"></i><span>/treetechphila</span></a></li>
+						<li><a href="https://instagram.com/treetechphila" target="_blank"><i class="demo-icon icon-instagram"></i><span>Instagram: @treetechphila</span></a></li>
+						<li class="last"><a href="https://facebook.com/treetechphila" target="_blank"><i class="demo-icon icon-thumbs-up"></i><span>Facebook: /treetechphila</span></a></li>
 					</ul>
 				</article>
 			</div>
