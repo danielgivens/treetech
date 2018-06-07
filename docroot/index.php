@@ -79,7 +79,7 @@
 				<a id="phone" href="tel:267-225-3012">Free estimates<br />Fully insured<br />Call 267-225-3012</a>
 			</header>				
 			<nav id="tree">
-				<aside><p>We are your local arborists caring for the urban forest. Estimates and consultations are free so give us a call − we love talking trees!</p></aside>
+				<aside><p>We are West Philly’s premier arborists caring for the urban forest west of the Schuykill River. Estimates and consultations are free so give us a call - we love talking trees.</p></aside>
 				<ul class="trunk">
 					<li>
 						<span class="root">Services</span>
@@ -117,17 +117,22 @@
 					<img src="assets/images/photo-pruning.jpg" alt="Climbing and pruning"  />
 					<h1>Tree Pruning</h1>
 					<p>Trees can be pruned for a variety of reasons, both functional and aesthetic.  Trees can be thinned to allow light to pass through them, or to reduce weight and control growth.  Pruning can also remove dead wood and hanging branches.  Trees can also be reduced and have problematic sections removed.  Often in urban situations trees need to be pruned to clear them from buildings, sidewalks, wires, lights or other trees.  We are also experienced at fine pruning, and can prune large and small trees, and shrubs to achieve the look that you want.</p>
+					<img src="assets/images/photo-pruning1.jpg" alt="Climbing and pruning"  />
+					<img src="assets/images/photo-pruning2.jpg" alt="Climbing and pruning"  />
 					<img src="assets/images/photo-suspension.jpg" alt="Suspending branch" />
 				</article>
 				<article id="removal">
+					<img src="assets/images/photo-removal.jpg" alt="Urban tree removal" />
 					<h1>Tree Removal</h1>
 					<p>Whether it be from disease, decay, or some other defect trees sometimes need to be removed.  We work hard to save any tree we can, but in cases where the tree could be dangerous to people or property we recommend removal.  When the site allows it we like to work with clients to manage a tree's decline over the end of its life.  In other cases, a tree in decline should be removed sooner since allowing it to continue to decay will only increase the cost and hazards of eventual removal.</p>
 					<p>We specialize in take downs of trees in tight spaces, and will ensure that nothing is damaged and the site is the same when we leave as it was when we found it.</p>
-					<img src="assets/images/photo-removal.jpg" alt="Urban tree removal" />
+					<img src="assets/images/photo-removals1.jpg" alt="Urban tree removal" />
+					<img src="assets/images/photo-removals2.jpg" alt="Urban tree removal" />
+					<img src="assets/images/photo-removals3.jpg" alt="Urban tree removal" />
 				</article>
 				<article id="about">
 					<h1>About</h1>
-					<p>Tree Tech was founded by Philadelphia native Elias Schewel to provide affordable expert tree pruning and removal services for our clients.  Our shop is a few blocks from the old Tastykake factory, and our office is in West Philly - we are one of the only area tree care companies based in the city.  We are your local arborists caring for the urban forest.  Call us for a quick estimate, local tree emergencies, and efficient, careful service.</p>
+					<p>Tree Tech was founded by Philadelphia native Elias Schewel to provide affordable expert tree pruning and removal services for clients in west Philadelphia. Our  is outside of the neighborhood a few blocks from the old taste cake factory, but our office is in West Philly. We are focused on providing tree care services in our own neighborhood. We are your local arborists caring for the urban forest west of the Schuylkill River. Call us for a quick estimate, local tree emergencies and efficient, careful service.</p>
 				</article>
 				<article id="sustainability">
 					<img src="assets/images/photo-community.jpg" alt="Tree climbing rope" />
