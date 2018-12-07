@@ -76,7 +76,7 @@
 					<figure class="stretched" data-stretch="assets/images/bg-5.jpg"></figure>
 				</div>
 				<h1>Let's<br/>Talk<br/>Trees</h1>
-				<a id="phone" href="tel:267-225-3012">Free estimates<br />Fully insured<br />Call 267-225-3012</a>
+				<a id="phone" href="tel:267-225-3012">Free estimates<br />Fully insured<br />By Referral Only</a>
 			</header>				
 			<nav id="tree">
 				<aside><p>We are West Philly’s premier arborists caring for the urban forest west of the Schuykill River. Estimates and consultations are free so give us a call - we love talking trees.</p></aside>
@@ -100,9 +100,9 @@
 						<span class="root">Contact</span>
 						<ul>
 							<li><a href="mailto:info@treetechphila.com">E-mail Us</a></li>
-							<li><a href="tel:267-225-3012">Call 267-225-3012</a></li>
+							<!--<li><a href="tel:267-225-3012">Call 267-225-3012</a></li>-->
 							<li><a href="https://instagram.com/treetechphila" target="_blank">Follow on IG</a></li>
-							<li class="last"><a href="https://facebook.com/treetechphila" target="_blank">Like on FB</a></li>
+							<!--<li class="last"><a href="https://facebook.com/treetechphila" target="_blank">Like on FB</a></li>-->
 						</ul>
 					</li>
 				</ul>
@@ -149,9 +149,9 @@
 					<h1>Contact</h1>
 					<ul class="contact">
 						<li><a href="mailto:info@treetechphila.com"><i class="demo-icon icon-mail"></i><span>info@treetechphila.com</span></a></li>
-						<li><a href="tel:267-225-3012"><i class="demo-icon icon-phone"></i><span>267-225-3012</span></a></li>
+						<!--<li><a href="tel:267-225-3012"><i class="demo-icon icon-phone"></i><span>267-225-3012</span></a></li>-->
 						<li><a href="https://instagram.com/treetechphila" target="_blank"><i class="demo-icon icon-instagram"></i><span>Instagram: @treetechphila</span></a></li>
-						<li class="last"><a href="https://facebook.com/treetechphila" target="_blank"><i class="demo-icon icon-thumbs-up"></i><span>Facebook: /treetechphila</span></a></li>
+						<!--<li class="last"><a href="https://facebook.com/treetechphila" target="_blank"><i class="demo-icon icon-thumbs-up"></i><span>Facebook: /treetechphila</span></a></li>-->
 					</ul>
 				</article>
 			</div>
