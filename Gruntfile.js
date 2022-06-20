@@ -7,13 +7,13 @@ module.exports = function(grunt) {
 		    },
 		    scripts: {
 		        files: [
-		        	'docroot/assets/js/*.js',
-		        	'docroot/assets/js/*/*.js',
-		        	'docroot/assets/css/*.scss',
-		        	'docroot/assets/css/*/*.scss',
-		        	'docroot/*/*.php',
-		        	'docroot/*.php',
-		        	'docroot/*.html'
+		        	'assets/js/*.js',
+		        	'assets/js/*/*.js',
+		        	'assets/css/*.scss',
+		        	'assets/css/*/*.scss',
+		        	'*/*.php',
+		        	'*.php',
+		        	'*.html'
 		        ],
 		        tasks: ['sass', 'uglify'],
 		        options: {
@@ -28,25 +28,25 @@ module.exports = function(grunt) {
 			},			
 			dist: {
 				files: {
-					'docroot/assets/css/style.css': 'docroot/assets/css/style.scss',
+					'assets/css/style.css': 'assets/css/style.scss',
 				}
 			}
 		},
 		uglify: {
 		    base: {
-		        src: 'docroot/assets/js/base.js',
-		        dest: 'docroot/assets/js/base.min.js',
+		        src: 'assets/js/base.js',
+		        dest: 'assets/js/base.min.js',
 		    },
 		    libs: {
 		        src: [
-		            'docroot/assets/js/vendor/jquery.js',
-		            'docroot/assets/js/vendor/iscroll-probe.js',
-		            'docroot/assets/js/vendor/anystretch.js',
-		            'docroot/assets/js/vendor/actual.js',
-		            'docroot/assets/js/vendor/fittext.js',
-		            'docroot/assets/js/vendor/cycle.js'
+		            'assets/js/vendor/jquery.js',
+		            'assets/js/vendor/iscroll-probe.js',
+		            'assets/js/vendor/anystretch.js',
+		            'assets/js/vendor/actual.js',
+		            'assets/js/vendor/fittext.js',
+		            'assets/js/vendor/cycle.js'
 		        ],
-		        dest: 'docroot/assets/js/libs.min.js',
+		        dest: 'assets/js/libs.min.js',
 		    }
 		}
     });
